@@ -1,4 +1,4 @@
-# Chatty Application
+# Chatty
 
 A secure, real-time chat application that allows users to create and join private chat rooms with end-to-end encryption.
 
