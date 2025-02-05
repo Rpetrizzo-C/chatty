@@ -6,7 +6,7 @@
           <v-col cols="12" sm="8" md="6">
             <v-card class="mx-auto mt-5" elevation="3">
               <v-card-title class="text-center text-h4 py-4">
-                Anonymous Chat
+                Chatty Chat
               </v-card-title>
 
               <v-card-text>
@@ -213,11 +213,7 @@
     </v-main>
 
     <!-- Snackbar -->
-    <v-snackbar
-      v-model="snackbar.show"
-      :color="snackbar.color"
-      :timeout="2000"
-    >
+    <v-snackbar v-model="snackbar.show" :color="snackbar.color" :timeout="2000">
       {{ snackbar.text }}
     </v-snackbar>
   </v-app>

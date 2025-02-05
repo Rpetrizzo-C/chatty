@@ -1,4 +1,4 @@
-# Anonymous Chat Application
+# Chatty Chat Application
 
 A secure, real-time chat application that allows users to create and join private chat rooms with end-to-end encryption.
 
@@ -45,7 +45,7 @@ A secure, real-time chat application that allows users to create and join privat
 
 ```bash
 git clone <repository-url>
-cd anonymous-chat
+cd chatty
 ```
 
 2. Set up the backend:
@@ -120,7 +120,7 @@ cdk deploy
 
 ## Project Structure
 ```
-anonymous-chat/
+chatty/
 ├── backend/
 │   ├── app/
 │   │   ├── models/
